@@ -5,7 +5,7 @@
     <body>
      <title>SOSarte</title>
       <H1> OBJETIVO </H1>
-       <p> Comercializar mis trabajos aetísticos </p>
+       <p> Comercializar mis trabajos artísticos </p>
       <H1> AUDIENCIA </H1>
        <p> Cualquier persona que quiera conocer mis trabajos y esté interesada en el arte </p>
       <H1> SOBRE MÍ </H1>
