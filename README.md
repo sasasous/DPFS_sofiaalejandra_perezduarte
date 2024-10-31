@@ -3,7 +3,7 @@
 <html>
   <head>
     <body>
-     <title>SOSarte</title>
+     <tittle> SOSarte </tittle>
       <H1> OBJETIVO </H1>
        <p> Comercializar mis trabajos artísticos </p>
       <H1> AUDIENCIA </H1>
