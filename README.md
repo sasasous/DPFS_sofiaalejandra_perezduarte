@@ -23,9 +23,9 @@
        <ul>
          <li> <a href=https://lunalatuna.com> LUNA MARTINEZ </a> </li>
          <li> <a href=https://www.estudiokatastrofico.com/tienda> ESTUDIO KATASTROFICO </a> </li>
-         <li> <a href=https://gemavadillo.com> </a> GEMA VADILLO </li>
+         <li> <a href=https://gemavadillo.com> GEMA VADILLO </a> </li>
          <li> <a href=https://www.etsy.com/es/shop/LucaAddams?ref=seller-platform-mcnav>  ETSY LUCA </a> </li>
-         <li> <a href=https://piyoasdf.com> </a> </li>
+         <li> <a href=https://piyoasdf.com> PIYOASDF </a> </li>
        </ul>
     </body>
   </head>
