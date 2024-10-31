@@ -20,7 +20,13 @@
            No te olvides que si necesitás hablar, hacer un encargo, te interesó uno de mis dibujos o tenés alguna duda, no tengas miedo, me podés contactar cuando quieras.
        </p>
       <H1> INSPIRACIÓN </H1>
-       
+       <ul>
+         <li> <a href=https://lunalatuna.com> LUNA MARTINEZ </a> </li>
+         <li> <a href=https://www.estudiokatastrofico.com/tienda> ESTUDIO KATASTROFICO </a> </li>
+         <li> <a href=https://gemavadillo.com> </a> GEMA VADILLO </li>
+         <li> <a href=https://www.etsy.com/es/shop/LucaAddams?ref=seller-platform-mcnav>  ETSY LUCA </a> </li>
+         <li> <a href=https://piyoasdf.com> </a> </li>
+       </ul>
     </body>
   </head>
 </html>
