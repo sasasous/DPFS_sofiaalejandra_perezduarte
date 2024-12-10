@@ -12,7 +12,7 @@
      <p>Personas interesadas en la compra de piezas de arte.</p>
     <h2>SOBRE MÍ</h2>
      <p>Soy Sofía, tengo 18 años. Ilustro desde siempre, busco mejorar la calidad de estas cada vez a través del aprendizaje 
-     continuo, y este año empecé a bucar compartir mis trabajos con personas que también lo disfrutan</p>
+     continuo, y este año empecé a bucar compartir mis trabajos con personas que también lo disfrutan.</p>
     <h2>REFERENTES<h2>
      <ul>
       <li> <a href="https://schlitzart.bigcartel.com/">Schlitz Art</a> </li>
