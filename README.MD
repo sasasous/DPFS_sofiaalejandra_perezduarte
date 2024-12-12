@@ -1,9 +1,4 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>SOSarte</title>
-  </head>
-  <body>
+ <body>
    <h1>Sprint 1</h1>
     <h2>TEMÁTICA</h2>
      <p>Venta de arte digital.</p>
@@ -25,4 +20,3 @@
     <h2>WIREFRAME EN FIGMA</h2>
      <p> <a href="https://www.figma.com/design/pIh9g0UPbABXyfw1gji2Gu/SOSarte?node-id=1669-162202&t=JUgEKw4DTfa11fR7-1">WIREFRAME</a> </p>
   </body>
-</html>
