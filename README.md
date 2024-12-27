@@ -11,7 +11,7 @@
    ---
    ##SOBRE MÍ##
 
-     Soy Sofía, tengo 18 años. Ilustro desde siempre, busco mejorar la calidad de estas cada vez a través del aprendizaje continuo, y este año empecé a bucar compartir mis trabajos con personas que también lo disfrutan.
+     Soy Sofía, tengo 19 años. Ilustro desde siempre, busco mejorar la calidad de estas cada vez a través del aprendizaje continuo, y este año empecé a bucar compartir mis trabajos con personas que también lo disfrutan.
    ---
    ##REFERENTES##
 
