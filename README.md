@@ -1,19 +1,19 @@
-#Sprint 1#
+Sprint 1
 ===
    ---
-   ##TEMA##
+   TEMA
    
     Venta de arte digital.
    ---
-   ##OBJETIVO##
+  OBJETIVO
 
     Personas interesadas en la compra de piezas de arte.
    ---
-   ##SOBRE MÍ##
+   SOBRE MÍ
 
      Soy Sofía, tengo 19 años. Ilustro desde siempre, busco mejorar la calidad de estas cada vez a través del aprendizaje continuo, y este año empecé a bucar compartir mis trabajos con personas que también lo disfrutan.
    ---
-   ##REFERENTES##
+   REFERENTES
 
     - [Schlitz Art](https://schlitzart.bigcartel.com/)
     - [Gema Vadillo](https://gemavadillo.com/)
