@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head-->
+<%- include('./partials/head') %>
+
+    <body> 
+         
+        <!--Menú-->
+        <%- include('./partials/menu') %>
+
+        <section>
+            <nav class="producto-carrito">
+                <h4 id="carrito">Nombre</h4>
+                <img id="img-carrito" src="/assets/">
+                <ul class="carrito">
+                    <li>PRECIO: </li>
+                </ul>
+                <li><a href="/views/home.ejs">VOLVER</a></li>
+                <button id="botón-comprar">COMPRAR</button>
+            </nav>
+        </section>
+   
+        <!--Footer-->
+        <%- include('./partials/footer') %>
+
+    </body>
+
+</html>
