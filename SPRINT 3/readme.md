@@ -1,0 +1,1 @@
+[Tablero en Trello] (https://trello.com/invite/b/67c77a69ed0a678e10ff7939/ATTI42f04ce91553e5222de5999c198c7562AC9DC99D/dpfs3sofiaalejandraperezduarte# DPFS3_sofiaalejandra_perezduarte)
