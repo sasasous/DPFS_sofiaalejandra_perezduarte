@@ -1,0 +1,94 @@
+body {
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background-color: #F8F6E7;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    
+}
+
+.nav-img-icon {
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 90%;
+}
+
+.nav-img {
+    width: 50px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.producto-carrito {
+    height: 600px;
+    display: block;
+    position: absolute;
+    top: 100px
+}
+
+#agua-carrito {
+    font-size: 36px;
+    display:inline-block;
+    position:absolute;
+    margin-left: 350px;
+}
+
+#img-agua-carrito {
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+
+.carrito {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    left: 850px;
+    margin-top: 150px;
+    font-size: 36px;
+}
+
+#botón-comprar {
+    position: relative;
+    left: 1000px;
+    top: 100px;
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FAD899;
+    font-size: 40px;
+    
+}
+
+.nav-footer {
+    display: inline-block;
+    position: relative;
+    top:600px;
+    background-color: #F8F6E7;
+    height: 400px;
+    width: 100%;
+   
+}
+
+.nav-head {
+    text-decoration-line: none;
+    color: black;
+    display: inline-block;
+    font-size: 36px;
+    padding-right: 300px;
+}
+
+.redes {
+    color: black;
+    text-decoration-line: none;
+}
