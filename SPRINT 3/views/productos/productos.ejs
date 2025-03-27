@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head-->
+<%- include('./partials/head') %>
+
+    <body> 
+         
+        <!--Menú-->
+        <%- include('./partials/menu') %>
+        
+        <nav class="carrito">
+            <ul class="carrito">
+                <li> <h4 id="nombre"> Nombre </h4> </li>
+                <img id="imagen" src="/assets/">
+                <li> TAMAÑO:</li>
+                <li> PRECIO: </li>
+                <li> <a href="/views/home.ejs"> VOLVER </a> </li>
+                <li> <button id="botón-comprar"> COMPRAR </button>  </li>
+            </ul>
+        </nav>
+   
+        <!--Footer-->
+        <%- include('./partials/footer') %>
+
+    </body>
+</html>
