@@ -1,0 +1,99 @@
+body {
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background-color: #F8F6E7;
+    width: 100%;
+    height: 100px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    
+}
+
+.nav-img-icon {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 80%;
+}
+
+.nav-img {
+    width: 100px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.detalles {
+    display:inline-block;
+    width: 410px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 400px
+}
+
+#agua-img {
+    position:absolute;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+#agua-detalles {
+    display: inline-block;
+    position: absolute;
+    top: 205px;
+    width: 600px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+h4 {
+    display: block;
+    position:relative;
+    font-size: 36px;
+    margin-left: 80px;
+}
+
+h5 {
+    display: block;
+    position: relative;
+    font-size: 32px;
+    margin-left: 80px;
+}
+
+#botón-agua {
+    background-color: #FAD899;
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    float: right;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.nav-footer {
+    background-color: #F8F6E7;
+    height: 400px;
+    
+}
+
+.nav-head {
+    text-decoration-line: none;
+    color: black;
+    display: inline-block;
+    font-size: 36px;
+    padding-right: 300px;
+}
+
+.redes {
+    color: black;
+    text-decoration-line: none;
+}
