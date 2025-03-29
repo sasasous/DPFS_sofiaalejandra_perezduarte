@@ -13,7 +13,7 @@ show: function(req, res) {
 create: function(req, res) {
     return res.send("Formulario de creación de ilustración");
 },
-create: function(req, res) {
+search: function(req, res) {
     return res.render("searchResults", {
         title: "Resultados de búsqueda"});
 },
