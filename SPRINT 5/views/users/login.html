@@ -1,0 +1,21 @@
+<!--Head-->
+<%- include('./partials/head') %>
+<body>
+    <!--Menú-->
+    <%- include('./partials/menu') %>
+
+    <form method="post">
+        <label for=”correo”> Correo electrónico </label>
+         <br>
+        <input class="input" type=”email” name=”email” id="nombre">
+         <br>
+        <label for=”contraseña”> Contraseña </label>
+         <br>
+        <input class="input" type=”password” name=”password” id="contraseña">
+         <br>
+        <input id="ingresar" type="submit" value="INGRESAR">
+    </form>
+
+  <!--Footer-->
+  <%- include('./partials/footer') %>
+</body>
