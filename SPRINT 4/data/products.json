@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "name": "vampiro",
+    "description": "Chica vampiro",
+    "image": "https://photos.fife.usercontent.google.com/pw/AP1GczNoPgLuFBAPFfMmrcfWCKUTSZeQkmeGAbYr3cApoOl9zlGlhe6ORHNw=w944-h944-s-no-gm?authuser=1",
+    "category": "Character",
+    "price": "$10"
+  }, {
+    "id": 2,
+    "name": "Gatos y café",
+    "description": "Personaje 1 castaño con un gato negro y personaje 2 rubio con gato blanco con mancha café, sostiene una taza con diseño de un sol",
+    "image": "https://photos.fife.usercontent.google.com/pw/AP1GczNeP9_6Z18inkb-bSHddF4S5NLe7EST5E905Myhpv1BmHeIlmTNZuWS=w944-h944-s-no-gm?authuser=1",
+    "category": "Character, animal, object",
+    "price": "$15"
+  }, {
+    "id": 3,
+    "name": "l0v3",
+    "description": "Personaje haciendo la mitad de un corazón con la mano",
+    "image": "https://photos.fife.usercontent.google.com/pw/AP1GczONk0z3s0JBp0c5AgpZY7x6MQWvAT0ey0E5orKt55FIDF69sVx98-XU=w944-h944-s-no-gm?authuser=1",
+    "category": "Character",
+    "price": "$10"
+  }, {
+    "id": 4,
+    "name": "Iluminado",
+    "description": "Personaje con destellos alrededor de la cabeza",
+    "image": "https://photos.fife.usercontent.google.com/pw/AP1GczOU0N1R6_91u_Sl2Z6J-jpYd3cFvQGBiUtH5rseTSWvnE2K03QH7mX_=w667-h944-s-no-gm?authuser=1",
+    "category": "Character",
+    "price": "$10"
+  }, {
+    "id": 5,
+    "name": "Fantasma",
+    "description": "Personaje con cabello largo negro, vestido blanco",
+    "image": "https://photos.fife.usercontent.google.com/pw/AP1GczMrZdktmWLypDzRqWZvEVb4nC2THJnvvO8TuEKIh7QdzYRKCy-eHbC_=w944-h944-s-no-gm?authuser=1",
+    "category": "Character",
+    "price": "$10"
+  }]
+  
