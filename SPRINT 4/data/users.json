@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "first_name": "Annamarie",
+    "last_name": "Becket",
+    "email": "abecket0@tuttocitta.it",
+    "password": "$2a$04$ht.Es7eJ3P/Zcv0E.Z6/AeKVBRGMddXl8RtWklYYoRJN4BSbYANhm",
+    "category": "Editor",
+    "image": "https://robohash.org/sedquivelit.png?size=50x50&set=set1"
+  }, {
+    "id": 2,
+    "first_name": "Marji",
+    "last_name": "De Gouy",
+    "email": "mdegouy1@privacy.gov.au",
+    "password": "$2a$04$EkdYr5bVlteXHDlyyrnwxuQ33e1UvHTHFAol3l1jjCZlQRqZWdWPm",
+    "category": "Customer",
+    "image": "https://robohash.org/ullamvoluptatemrepellat.png?size=50x50&set=set1"
+  }, {
+    "id": 3,
+    "first_name": "Hermine",
+    "last_name": "McCarle",
+    "email": "hmccarle2@ibm.com",
+    "password": "$2a$04$28zY8kNnPP/9PcGevifAl.PFpjlDi0JL21q2IiJ9UkkOPI3GIBmh2",
+    "category": "Customer",
+    "image": "https://robohash.org/distinctiofugiatet.png?size=50x50&set=set1"
+  }, {
+    "id": 4,
+    "first_name": "Shayne",
+    "last_name": "Bointon",
+    "email": "sbointon3@list-manage.com",
+    "password": "$2a$04$MRAMlTP7PXwwv7JAh.KYP.FpJZz2q3PRI5K.LABxJVV/xa6pafwEC",
+    "category": "Customer",
+    "image": "https://robohash.org/asperioressimiliqueex.png?size=50x50&set=set1"
+  }, {
+    "id": 5,
+    "first_name": "Caril",
+    "last_name": "Dorsett",
+    "email": "cdorsett4@amazonaws.com",
+    "password": "$2a$04$4zlCdANzMCTw902kVAKTQuSHr8NIeLahtOEioAuxaly6LqnPPFUb6",
+    "category": "Editor",
+    "image": "https://robohash.org/quodsintiusto.png?size=50x50&set=set1"
+  }]
+  
