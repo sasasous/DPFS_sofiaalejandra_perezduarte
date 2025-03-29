@@ -4,7 +4,7 @@ let usersController = {
         let usersList;
         return res.render("users/users", {
             title: "Users",
-            listaIlustraciones: usersList
+            listaUsuarios: usersList
         });
     },
     show: function(req, res) {
