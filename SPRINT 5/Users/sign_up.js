@@ -24,3 +24,19 @@ app.post('/cool-profile', cpUpload, function (req, res, next) {
   //
   // req.body contendrá los campos de texto, si los hubiera.
 })
+
+//To hash the password
+const salt = bcrypt.genSaltSync(10);
+const hash = bcrypt.hashSync("B4c0/\/", salt);
+// Store hash in your password DB
+
+// Load hash from your password DB
+bcrypt.compareSync("B4c0/\/", hash); // true
+bcrypt.compareSync("not_bacon", hash); // false
+
+const hash = bcrypt.hashSync("bacon", 10);
+
+//Guarda datos enviados en archuivo JSON
+const fs = require('fs');
+const path = require('path');
+const filePath = path.join(__dirname, 'data.json');
