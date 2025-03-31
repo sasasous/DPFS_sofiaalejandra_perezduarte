@@ -5,24 +5,23 @@ let express = require('express');
 let router = express.Router();
 
 //Importar el controlador de usuarios
-let usuariosController = require('../controllers/usuariosController');
+let usersController = require('../controllers/usersController');
 
 //Rutas para usuarios
-router.get("/users", usuariosController.index);
+//Listado de usuarios
+router.get("/users", productsController.index);
 //Crear un usuario
-router.post("/users/create", usuariosController.create);
+router.get("/users/create", productsController.create);
 //Detalle de un usuario
-router.get("/users/:id", usuariosController.show);
-//Crear un usuario (formulario)
-router.get("/users/create", usuariosController.create);
+router.get("/users/:id", productsController.show);
 //Crear un usuario
-router.post("/users", usuariosController.store);
+router.post("/users", productsController.store);
 //Edición de un usuario
-router.get("/users/:id/edit", usuariosController.edit);
+router.get("/users/:id/edit", productsController.edit);
 //Actualizar un usuario
-router.put("/users/:id", usuariosController.update);
+router.put("/users/:id", productsController.update);
 //Eliminar un usuario
-router.delete("/users/:id", usuariosController.destroy);
+router.delete("/users/:id", productsController.destroy);
 
 //Exportar el router
 module.exports = router;
