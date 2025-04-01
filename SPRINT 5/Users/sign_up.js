@@ -39,12 +39,22 @@ app.use(function(err, req, res, next) {
 });
 
 //Session
-const session = require('express-session')
+const session = require('express-session');
+const { log } = require('console');
 app.use(session({
   secret: 'users',
   resave: false,
   saveUninitialized: true,
 }))
+
+app.use(function(req, res, next) {
+  console.log(req.cookies.user);
+  if (req.session.user !== undefined) {
+    res.locals.user = req.session.user;
+  }
+  return next();
+})
+
 
 const express = require('express')
 const multer  = require('multer')

@@ -19,6 +19,7 @@ let usersController = {
     store: function (req, res) {
         let info = req.body;
         req.session.user = info;
+        res.cookie ("user", info, { maxAge: 1000 * 60 * 60 });
         return res.send(req.session);
         return res.redirect("/");
     }
