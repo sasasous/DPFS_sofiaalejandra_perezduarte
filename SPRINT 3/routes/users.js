@@ -29,5 +29,14 @@ router.delete('/eliminar/:id', function (req, res) {
   res.send('Eliminar usuario');
 });
 
+const express = require("express"); 
+const router = express.Router(); 
+const controller = require("../controller/indexController");
+router.get("/", controlador.usuario.getAll); 
+router.get("/:nombre", controlador.usuario.getNombre); 
+router.post("/", controlador.usuario.createNew); 
+router.put("/", controlador.usuario.editAt); 
+router.delete("/", controlador.usuario.deleteUser);
+
 //Exportar módulo
 module.exports = router; 
