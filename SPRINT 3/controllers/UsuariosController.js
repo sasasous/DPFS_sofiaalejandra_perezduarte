@@ -1,4 +1,5 @@
 let db = require("../database/models");
+let op = db.Sequelize.Op;
 
 let UsuariosController = {
     index: function (req, res) {
@@ -14,18 +15,29 @@ let UsuariosController = {
         
     },
     show: function (req, res) {
-        return res.send("User: $(req.params.id)");
+        let id = req.params.id
+        db.Usuario.findByPk(id)
+        .then(function (data) {
+            return res.send (data);
+          return res.send("User: $(req.params.id)"); 
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+        
     },
     create: function (req, res) {
         return res.render("userNew", {title: "Crear Usuario"});
     },
+
     search: function (req, res) {
-        let searchTerm = req.query.search
-        return res.render("searchResults", {
+        let searchTerm = req.params.search
+            return res.render("searchResults", {
             title: "Resultados de la búsqueda",
-            searchTerm
-        });
+            searchTerm});
+        
     },
+
     store: function (req, res) {
         let info = req.body;
         req.session.user = info;
