@@ -36,7 +36,7 @@ let cols = {
 
 let config = {
     tableName: 'Usuario',
-    timestamps: false,
+    timestamps: true,
     underscored: true
 }
 

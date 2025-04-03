@@ -1,0 +1,19 @@
+<!--Head-->
+<%- include('./partials/head') %>
+<body>
+
+    <!--Menú-->
+    <%- include('./partials/menu') %>
+
+    <h1>Usuarios</h1>
+    <h2>Lista de usuarios</h2>
+    <ul>
+        <% for (let i = 0; i < usuarios.length; i++) { %>
+            <li><%= listaUsuarios[i].title %></li>
+        <% } %>
+    </ul>
+
+  <!--Footer-->
+  <%- include('./partials/footer') %>
+  
+</body>
