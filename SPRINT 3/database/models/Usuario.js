@@ -2,10 +2,10 @@ module.exports = (sequelize, DataTypes) => {
     let alias = 'Usuario'; // nombre de la tabla
 
 let cols = {
-    id: {
+    usuario_id: {
         autoIncrement: true,
         primaryKey: true,
-        type: DataTypes.INTEGER
+        type: DataTypes.INTEGER,
     },
     nombre: {
         type: DataTypes.STRING(100),
