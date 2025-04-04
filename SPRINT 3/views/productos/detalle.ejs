@@ -8,17 +8,16 @@
         <!--Menú-->
         <%- include('./partials/menu') %>
 
-        <div class="caja-uno">
-            <img id="img" src="/assets/pescador de estrellas.png">
-            <h4 id="título">PESCADOR DE ESTRELLAS</h4>
-            <h5 id="título">1240 × 1754</h5>
-        </div>
-        <div class="caja-dos">
-            <img id="img-dos" src="/assets/perfil.png">
-            <h4 id="título">PERFIL</h4>
-            <h5 id="título">1280 × 1280</h5>
-        </div>
-  
+        <h1>Productos</h1>
+        <%- include('./partials/listado') %>
+
+        <h2>Listado de productos</h2>
+        <ul>
+            <% for (let i = 0; i <listasProductos.length; i++) { %>
+                <li><%= productList[i].title %></li>
+            <% } %>
+        </ul>
+        
         <!--Footer-->
         <%- include('./partials/footer') %>
 
