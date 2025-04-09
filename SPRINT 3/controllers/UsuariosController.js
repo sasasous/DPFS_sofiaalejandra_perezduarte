@@ -1,4 +1,9 @@
 const { title } = require("process");
+const bcryptjs = require("bcryptjs");
+const path = require("path");
+const fs = require("fs");
+const usersPath = path.join(__dirname, "../data/users.json");
+
 let db = require("../database/models");
 let op = db.Sequelize.Op;
 
@@ -80,6 +85,15 @@ let UsuariosController = {
         })
     }
 }
+
+const { validationResult } = require("express-validator");
+    let errors = validationResult(req);
+    if (errors.isEmpty()) {
+        //No hay errrores, seguimos adelante.
+    } else {
+        //Si hay errores, volvemos al formulario de mensajes.
+        res.render('register', {errors: errors.mapped(), old: req.body});
+    }
 
 //Exportar el controlador
 module.exports = UsuariosController;

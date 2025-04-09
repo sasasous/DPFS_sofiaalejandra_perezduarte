@@ -29,10 +29,17 @@ router.delete('/eliminar/:id', function (req, res) {
   res.send('Eliminar usuario');
 });
 
-const express = require("express"); 
+const express = require("express");
+const {registroValidator} = require("../middleware/registroValidator");
+
 const router = express.Router(); 
+
+
 const controller = require("../controller/indexController");
-router.get("/", controlador.usuario.getAll); 
+//Formulario de inicio de sesión
+router.get("/login", login);
+router.post("/login", registroValidator, controlador.usuario.login);
+router.get("/", controlador.usuario.getAll);
 router.get("/:nombre", controlador.usuario.getNombre); 
 router.post("/", controlador.usuario.createNew); 
 router.put("/", controlador.usuario.editAt); 
