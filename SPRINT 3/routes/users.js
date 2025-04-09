@@ -30,7 +30,6 @@ router.delete('/eliminar/:id', function (req, res) {
 });
 
 const express = require("express");
-const {registroValidator} = require("../middleware/registroValidator");
 
 const router = express.Router(); 
 
@@ -44,6 +43,9 @@ router.get("/:nombre", controlador.usuario.getNombre);
 router.post("/", controlador.usuario.createNew); 
 router.put("/", controlador.usuario.editAt); 
 router.delete("/", controlador.usuario.deleteUser);
+
+// Procesar el registro
+router.post('/register', validateRegister, controller.processRegister);
 
 //Exportar módulo
 module.exports = router; 

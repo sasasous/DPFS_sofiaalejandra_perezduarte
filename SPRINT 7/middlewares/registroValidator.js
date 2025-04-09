@@ -21,7 +21,11 @@ const registroValidator = {
     .withMessage("La contraseña es obligatoria")
     .bail()
     .isLength({min: 8})
-    .withMessage("Al menos 8 caracteres")
+    .withMessage("Al menos 8 caracteres"),
+    imagen:
+    check("imagen")
+    .isURL()
+    .withMessage("La imagen no es válida"),
 };
 
 module.exports = {registroValidator};

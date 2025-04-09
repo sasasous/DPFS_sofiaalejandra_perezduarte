@@ -7,7 +7,57 @@
          
         <!--Menú-->
         <%- include('./partials/menu') %>
-   
+
+            <form action="/productos/crear"
+            method="POST">
+                <!--NOMBRE-->
+                <label for = "nombre">Nombre del producto</label>
+                <input
+                type="text"
+                name="nombre"
+                placeholder="Nombre del producto">
+                <!--VALIDACIÓN DE NOMBRE-->
+                <% if (locals.error && errors.name) {%>
+                    <p class="feedback"> <%= errors.name %> </p>
+                <% } %>
+                value="<%= locals.old && old.name %>"
+                <!--DESCRIPCIÓN-->
+                <label for = "descripcion">Descripción del producto</label>
+                <input
+                type="text"
+                name="descripcion"
+                placeholder="Descripción del producto">
+                <!--VALIDACIÓN DE DESCRIPCIÓN-->
+                <% if (locals.error && errors.description) {%>
+                    <p class="feedback"> <%= errors.description %> </p>
+                <% } %>
+                value="<%= locals.old && old.description %>"
+                <!--PRECIO-->
+                <label for = "precio"> Precio del producto</label>
+                <input
+                type="number"
+                name="precio"
+                placeholder="Precio del producto">
+                <!--CATEGORÍA-->
+                <label for = "categoria">Categoría del producto</label>
+                <input
+                type="text"
+                name="categoria"
+                placeholder="Categoría del producto">
+                <!--IMAGEN-->
+                <label for = "imagen">Imagen del producto</label>
+                <input
+                type="text"
+                name="imagen"
+                placeholder="URL de la imagen del producto">
+                <!--VALIDACIÓN DE IMAGEN-->
+                <% if (locals.error && errors.image) {%>
+                    <p class="feedback"> <%= errors.image %> </p>
+                <% } %>
+                value="<%= locals.old && old.image %>"
+                <!--CREAR-->
+                <button type="submit">Crear</button>
+            </form>   
         <!--Footer-->
         <%- include('./partials/footer') %>
 

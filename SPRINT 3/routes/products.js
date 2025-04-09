@@ -13,5 +13,8 @@ router.get("/id/:id", productsController.show);
 router.get("/productsNew", productsController.create);
 router.get("/results", productsController.search);
 
+//Ruta que procese el formulario que queremos validar
+router.post('/products', validateProducts, AbortController.processProducts);
+
 //Exportar el router
 module.exports = router;

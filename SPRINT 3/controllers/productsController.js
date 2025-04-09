@@ -92,3 +92,15 @@ let productController = {
         });
     }
 }
+
+//Verificar el resultado y construir la respuesta
+const { validationResult } = require("express-validator");
+    let errors = validationResult(req);
+    if (errors.isEmpty()) {
+        return res.send("El producto fue creado correctamente");
+    } else {
+       res.render('productRegister', {errors: errors.mapped(), old: req.body});
+    }
+
+//Exportamos el controlador
+module.exports = productController;

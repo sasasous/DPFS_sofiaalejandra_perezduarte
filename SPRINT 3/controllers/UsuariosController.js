@@ -86,7 +86,7 @@ let UsuariosController = {
     }
 }
 
-const { validationResult } = require("express-validator");
+const { validationResult } = require('express-validator');
     let errors = validationResult(req);
     if (errors.isEmpty()) {
         //No hay errrores, seguimos adelante.
