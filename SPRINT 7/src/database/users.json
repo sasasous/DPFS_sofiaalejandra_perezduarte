@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "nombre": "Analia",
+        "apellido": "Blanco",
+        "correo": "analiablanco@gmail.com",
+        "contrasena": "123456",
+        "categoria": "cliente",
+        "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Fpersona-de-perfil&psig=AOvVaw2rckx2GkRXY5QAc39zh8HV&ust=1744826445017000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjI85XP2owDFQAAAAAdAAAAABAE"
+    },
+    {
+        "id": "2",
+        "nombre": "Carlos",
+        "apellido": "Dominguez",
+        "correo": "calosdominguez@gmail.com",
+        "contrasena": "654321",
+        "categoria": "cliente",
+        "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fes%2Fs%2Ffotos%2F%2523persona&psig=AOvVaw2EFZvycT9Z71C6ZuX4lrWa&ust=1744826527752000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICEvLzP2owDFQAAAAAdAAAAABAE"
+    },
+    {
+        "id": "3",
+        "nombre": "Elena",
+        "apellido": "Fernández",
+        "correo": "elenafernandez@gmail.com",
+        "contrasena": "elena123",
+        "categoria": "cliente",
+        "imagen": "https://www.hola.com/horizon/landscape/6a53cd5134b2-getty-chica-feliz-t.jpg?im=Resize=(640),type=downsize"
+    },
+    {
+        "id": "4",
+        "nombre": "Lucía",
+        "apellido": "Pérez",
+        "correo": "luperez@gmail.com",
+        "contrasena": "lucha321",
+        "categoria": "editor",
+        "imagen": "https://i.pinimg.com/474x/dd/b7/d3/ddb7d3723f4c4d4aca144df379fe6917.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Sofía",
+        "apellido": "Pérez",
+        "correo": "sofiaperez@gmail.com",
+        "contrasena": "sofia9090",
+        "categoria": "editor",
+        "imagen": "https://content.instyle.es/medio/2023/02/01/micro-bob_aef7a147_230201131255_2000x3000.jpg"
+    }
+]
