@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--HEAD-->
+    <%- include('../partials/head.ejs') %>
+    
+    <body>
+        <!--MENU-->
+        <%- include('../partials/menu.ejs') %>
+        
+        <!--CREATE--> 
+        <form>
+            <label for="nombre"> Nombre </label>
+                <br>
+            <input type="text" id="nombre" name="nombre">
+                <br>
+            <label for="apellido"> Apellido </label>
+                <br>
+            <input type="text" id="apellido" name="apellido">
+                <br>
+            <label for="email"> Correo </label>
+                <br>
+            <input type="email" id="email" name="email">
+                <br>
+            <label for="pwd"> Contraseña </label>
+                <br>
+            <input type="password" id="pwd" name="pwd">
+            
+        </form>
+
+        <!--FOOTER-->
+        <%- include('../partials/footer.ejs') %>
+    </body>
+
+</html>
+
