@@ -5,5 +5,6 @@ const controllersProducts = require
 (path.resolve(__dirname, '../controllers/controllersProducts'));
 
 router.get('/products', controllersProducts.index);
+router.get('/products/create', controllersProducts.create);
 
 module.exports = router;

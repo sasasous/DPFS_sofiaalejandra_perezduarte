@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--HEAD-->
+    <%- include('../partials/head.ejs') %>
+    
+    <body>
+        <!--MENU-->
+        <%- include('../partials/menu.ejs') %>
+        
+        <!--CREATE--> 
+        <form>
+            <label for="nombre"> Nombre </label>
+                <br>
+            <input type="text" id="nombre" name="nombre">
+                <br>
+            <input type="image" id="image" alt="Login" src=""/>
+                <br>
+            <label for="categoría"> Categoría </label>
+                <br>
+            <input type="text" id="categoría" name="categoría">
+                <br>
+            <label for="precio"> Precio </label>
+                <br>
+            <input type="number" id="precio" name="precio" min="0" max="1000">
+                <br>
+            <label for="fecha_agregado"> Fecha de agregado </label>
+                <br>
+            <input type="date" id="fecha_agregado" name="fecha_agregado" value="trip-start" min="2025/04/2025">
+        </form>
+
+        <!--FOOTER-->
+        <%- include('../partials/footer.ejs') %>
+    </body>
+
+</html>
