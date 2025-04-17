@@ -8,6 +8,6 @@ module.exports = {
     },
     create: (req, res) => {
         let products = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../database/products.json')));
-
+        res.render(path.resolve(__dirname, '../views/products/create'));
     }
 }

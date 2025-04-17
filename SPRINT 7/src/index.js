@@ -16,13 +16,11 @@ app.use(methodOverride('_method'));
 const homeRoutes = require('./routes/home');
 const productsRoutes = require('./routes/products');
 const usersRoutes = require('./routes/users');
-const adminRoutes = require('./routes/admin');
 
 //Para usar las rutas
 app.use(homeRoutes);
 app.use(productsRoutes);
 app.use(usersRoutes);
-app.use(adminRoutes);
 
 //Levantar servidor
 app.listen(3000, 'localhost', () => console.log
