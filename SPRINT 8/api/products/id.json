@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+      "producto_id": { "type": "number" },
+      "nombre": { "type": "string" },
+      "street_type": { "enum": ["Street", "Avenue", "Boulevard"] }
+    }
+  }
+  
+  
