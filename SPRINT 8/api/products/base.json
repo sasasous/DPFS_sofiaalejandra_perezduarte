@@ -1,0 +1,42 @@
+[
+    {
+        "product_id": 1,
+        "name": "Vampiro",
+        "price": "$10.00",
+        "category": "2021",
+        "aggregation_date": "2021-10-01",
+        "image": "/SPRINT-8/assets/vampiro.png"
+    },
+    {
+        "product_id": 2,
+        "name": "Gatitos y café",
+        "price": "$10.00",
+        "category": "2022",
+        "aggregation_date": "2022-10-02",
+        "image": "/SPRINT-8/assets/gatitos-y-café.png"
+    },
+    {
+        "product_id": 3,
+        "name": "l0v3",
+        "price": "$10.00",
+        "category": "2022",
+        "aggregation_date": "2022-10-03",
+        "image": "/SPRINT-8/assets/love.png"
+    },
+    {
+        "product_id": 4,
+        "name": "Hastío",
+        "price": "$10.00",
+        "category": "2022",
+        "aggregation_date": "2022-10-04",
+        "image": "/SPRINT-8/assets/hastío.png"
+    },
+    {
+        "product_id": 5,
+        "name": "Serpiente",
+        "price": "$10.00",
+        "category": "2022",
+        "aggregation_date": "2022-10-05",
+        "image": "/SPRINT-8/assets/serpiente.png"
+    }
+]
