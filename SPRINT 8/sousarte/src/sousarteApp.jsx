@@ -12,3 +12,5 @@ export const sousarteApp = () => {
     </div>
   )
 }
+
+export default sousarteApp;
